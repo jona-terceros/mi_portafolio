@@ -194,7 +194,7 @@ html{
 
 #sobremi .sobremi p {
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
     color:black;
     margin-bottom: 12px;
 }
@@ -228,7 +228,7 @@ html{
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: black;
     text-decoration: underline;
     text-decoration-color: #c8d1ff;
     text-decoration-thickness: 5px;
@@ -303,7 +303,7 @@ html{
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: black;
     text-decoration: underline;
     text-decoration-color: #c3d3ff;
     text-decoration-thickness: 5px;
