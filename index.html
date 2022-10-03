@@ -1,13 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Portafolio Jonatan Terceros Ortega</h1>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1> &lt Jona <span>Dev </span>/&gt</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#habilidades">HABILIDADES</a></li>
+                            <li><a href="#proyectos">PROYECTOS</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://github.com/jona-terceros" target= "_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/jonatan.terceros.94/" target= "_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_jonatan_n/" target= "_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2 class="hola">¡Hola! Mi nombre es</h2>
+                <span>Jonatan Terceros Ortega</span>
+                
+                <p class="descripcion">Ingeniero de Sistemas, Desarrollador Backend & Frontend </p>
+                <!-- <img src="./img/devimg.png" alt=""> -->
+            </div>
+    </div>   
+    </section>
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/profile.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Jonatan Terceros Ortega</span> </h2>
+            <h3>Un apasionado por la tecnologia</h3>
+            <p>Soy estudiante de Ingenieria de Sistemas en la Universidad Catolica Boliviana.</p>
+            <p>Soy del pais de Bolivia y vivo en el departamento de Cochabamba.</p>
+            <p>Me gusta los videojuegos y la musica.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h3 class="titulo-seccion">MIS HABILIDADES</h3>
+        <div class="fila">
+            <div class="servicio">
+               <img src="./img/html.png" alt="">
+                <h4>HTML</h4>
+            </div>
+            <div class="servicio">
+                <img src="./img/css.png" alt="">
+                 <h4>CSS</h4>            
+             </div>
+             <div class="servicio">
+                <img src="./img/js.png" alt="">
+                 <h4>Javascript</h4>
+             </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img src="./img/angular.png" alt="">
+                 <h4>Angular</h4>
+             </div>
+             <div class="servicio">
+                <img src="./img/react.png" alt="">
+                 <h4>React</h4>
+             </div>
+             <div class="servicio">
+                <img src="./img/boostrap.svg" alt="">
+                 <h4>Bootstrap</h4>
+             </div>
+    </section>
+
+    <section id="proyectos">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://jona-terceros.github.io/mi_manual/"></a>
+                    <img src="img/manual.PNG" alt="">
+                </a>
+                    <div class="info">
+                        <h4>Mi Manual</h4>
+                         <p>Manual de HTML,CSS y JS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/pc'space.PNG" alt="">
+                    <div class="info">
+                        <h4>Venta de Computadoras</h4>
+                        <p>Pagina de contacto para empresa propia de computadoras.</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                    <img src="img/fondoproy3.jpg" alt="">
+                    <div class="info">
+                        <h4>Futuro Proyecto</h4>
+                         <p>Aqui ira mi futuro Proyecto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                        <img src="img/fondopr.png" alt="">
+                        <div class="info">
+                            <h4>Futuro Proyecto</h4>
+                             <p>Aqui ira mi futuro Proyecto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="email" placeholder="Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer>
+            <p>Jonatan Terceros Ortega</p>
+            <div class="redes">
+                <a href="https://api.whatsapp.com/send?phone=59161616470&text=Hola%20Jonatan!%20Me%20quiero%20contactar%20contigo"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/jona-terceros" target= "_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_jonatan_n/" target= "_blank"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+    
+        </footer>
+
+    </section>
+
 </body>
 </html>
